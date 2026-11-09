@@ -1,0 +1,340 @@
+{
+  "case": "t11_duplicates",
+  "container_instances": [],
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "dxf_version": "R2018",
+  "extra": {
+    "generation": {
+      "apart_50mm": 1,
+      "base": 7,
+      "exact_same_pos": 1,
+      "same_pos_rot90": 1,
+      "within_0p5mm": 1
+    },
+    "tolerance_mm": 1.0
+  },
+  "file": "t11_duplicates.dxf",
+  "instances": [
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "3D",
+      "insert": [
+        4500.0,
+        4000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "3F",
+      "insert": [
+        7500.0,
+        16000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3F",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "41",
+      "insert": [
+        10500.0,
+        11500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "41",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "43",
+      "insert": [
+        27000.0,
+        5500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "43",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "45",
+      "insert": [
+        0.0,
+        17500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "45",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "47",
+      "insert": [
+        4500.0,
+        13000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "47",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "49",
+      "insert": [
+        18000.0,
+        17500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "49",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "4B",
+      "insert": [
+        4500.0,
+        4000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "4B",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "pair": "3D",
+        "pair_handle": "3D",
+        "rotation_differs": false,
+        "variant": "exact_same_pos"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "4D",
+      "insert": [
+        7500.5,
+        16000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "4D",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "pair": "3F",
+        "pair_handle": "3F",
+        "rotation_differs": false,
+        "variant": "within_0p5mm"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "4F",
+      "insert": [
+        10500.0,
+        11500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "4F",
+      "layer": "E-LIGHT",
+      "rotation": 90.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "pair": "41",
+        "pair_handle": "41",
+        "rotation_differs": true,
+        "variant": "same_pos_rot90"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "51",
+      "insert": [
+        27050.0,
+        5500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "51",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "pair": "43",
+        "variant": "apart_50mm"
+      }
+    }
+  ],
+  "non_insert_entities": [],
+  "notes": [],
+  "rules_active": [
+    "R01"
+  ],
+  "scenarios": {
+    "default": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 3,
+        "mapped": 8,
+        "total": 11,
+        "unclassified": 0,
+        "unmapped": 0
+      },
+      "config": {},
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {
+        "DUPLICATE": [
+          "4B",
+          "4D",
+          "4F"
+        ]
+      },
+      "file_status": "OK",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {
+        "SYN-LIGHT-A": 8
+      },
+      "unclassified_by_spec": [],
+      "unmapped": [],
+      "warnings": []
+    }
+  },
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109,
+  "t_ids": [
+    "T-11"
+  ],
+  "title": "duplicate insertions",
+  "units": {
+    "expected_unit": "mm",
+    "insunits": 4
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "case": "t21_unused_definitions",
+  "container_instances": [],
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "dxf_version": "R2018",
+  "extra": {
+    "generation": {
+      "defined_but_not_inserted": [
+        "LIGHT_A",
+        "PANEL_DB",
+        "UNUSED_BOX"
+      ],
+      "inserted": {
+        "SWITCH_1G": 3
+      }
+    }
+  },
+  "file": "t21_unused_definitions.dxf",
+  "instances": [
+    {
+      "attribs": {},
+      "block": "SWITCH_1G",
+      "effective_layer": "E-SWITCH",
+      "grid": null,
+      "handle": "4F",
+      "insert": [
+        12000.0,
+        5500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "4F",
+      "layer": "E-SWITCH",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "SWITCH_1G",
+      "effective_layer": "E-SWITCH",
+      "grid": null,
+      "handle": "51",
+      "insert": [
+        18000.0,
+        11500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "51",
+      "layer": "E-SWITCH",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "SWITCH_1G",
+      "effective_layer": "E-SWITCH",
+      "grid": null,
+      "handle": "53",
+      "insert": [
+        6000.0,
+        11500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "53",
+      "layer": "E-SWITCH",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    }
+  ],
+  "non_insert_entities": [],
+  "notes": [
+    "expected: LIGHT_A, PANEL_DB quantity 0 (not listed), UNUSED_BOX not UNMAPPED"
+  ],
+  "rules_active": [
+    "R01",
+    "R03",
+    "R04"
+  ],
+  "scenarios": {
+    "default": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 0,
+        "mapped": 3,
+        "total": 3,
+        "unclassified": 0,
+        "unmapped": 0
+      },
+      "config": {},
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {},
+      "file_status": "OK",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {
+        "SYN-SWITCH-1G": 3
+      },
+      "unclassified_by_spec": [],
+      "unmapped": [],
+      "warnings": []
+    }
+  },
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109,
+  "t_ids": [
+    "T-21"
+  ],
+  "title": "block definitions never inserted",
+  "units": {
+    "expected_unit": "mm",
+    "insunits": 4
+  }
+}

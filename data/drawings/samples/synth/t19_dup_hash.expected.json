@@ -1,0 +1,13 @@
+{
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "expected": "RUN_ABORTED (identical SHA-256 in one set, F-001)",
+  "files": [
+    "t19_floor1.dxf",
+    "t19_floor1_copy.dxf"
+  ],
+  "schema": "synth-expected/0-provisional",
+  "set": "t19_dup_hash",
+  "t_ids": [
+    "T-19"
+  ]
+}

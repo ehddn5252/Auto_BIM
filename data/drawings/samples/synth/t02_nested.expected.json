@@ -1,0 +1,847 @@
+{
+  "case": "t02_nested",
+  "container_instances": [
+    {
+      "block": "UNIT_2L",
+      "handle": "5C",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "UNIT_2L",
+      "handle": "5E",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "FLOOR_3L",
+      "handle": "60",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "FLOOR_3L",
+      "handle": "62",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "FLOOR_3L",
+      "handle": "64",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "UNIT_2L",
+      "handle": "56",
+      "insert_path": [
+        "60"
+      ],
+      "space": "Model"
+    },
+    {
+      "block": "UNIT_2L",
+      "handle": "58",
+      "insert_path": [
+        "60"
+      ],
+      "space": "Model"
+    },
+    {
+      "block": "UNIT_2L",
+      "handle": "56",
+      "insert_path": [
+        "62"
+      ],
+      "space": "Model"
+    },
+    {
+      "block": "UNIT_2L",
+      "handle": "58",
+      "insert_path": [
+        "62"
+      ],
+      "space": "Model"
+    },
+    {
+      "block": "UNIT_2L",
+      "handle": "56",
+      "insert_path": [
+        "64"
+      ],
+      "space": "Model"
+    },
+    {
+      "block": "UNIT_2L",
+      "handle": "58",
+      "insert_path": [
+        "64"
+      ],
+      "space": "Model"
+    }
+  ],
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "dxf_version": "R2018",
+  "extra": {
+    "formula": {
+      "LIGHT_A": "2*(p+2q)",
+      "OUTLET_2P": "1*(p+2q)",
+      "SWITCH_1G": "q"
+    },
+    "generation": {
+      "FLOOR_3L_top": 3,
+      "UNIT_2L_per_floor": 2,
+      "UNIT_2L_top": 2,
+      "lights_per_unit": 2,
+      "outlets_per_unit": 1,
+      "switches_per_floor": 1
+    }
+  },
+  "file": "t02_nested.dxf",
+  "instances": [
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4D",
+      "insert": [
+        300.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "5C"
+      ],
+      "key": "5C/4D",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4F",
+      "insert": [
+        900.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "5C"
+      ],
+      "key": "5C/4F",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "51",
+      "insert": [
+        1300.0,
+        200.0,
+        0.0
+      ],
+      "insert_path": [
+        "5C"
+      ],
+      "key": "5C/51",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4D",
+      "insert": [
+        300.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "5E"
+      ],
+      "key": "5E/4D",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4F",
+      "insert": [
+        900.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "5E"
+      ],
+      "key": "5E/4F",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "51",
+      "insert": [
+        1300.0,
+        200.0,
+        0.0
+      ],
+      "insert_path": [
+        "5E"
+      ],
+      "key": "5E/51",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4D",
+      "insert": [
+        300.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "60",
+        "56"
+      ],
+      "key": "60/56/4D",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4F",
+      "insert": [
+        900.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "60",
+        "56"
+      ],
+      "key": "60/56/4F",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "51",
+      "insert": [
+        1300.0,
+        200.0,
+        0.0
+      ],
+      "insert_path": [
+        "60",
+        "56"
+      ],
+      "key": "60/56/51",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4D",
+      "insert": [
+        300.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "60",
+        "58"
+      ],
+      "key": "60/58/4D",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4F",
+      "insert": [
+        900.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "60",
+        "58"
+      ],
+      "key": "60/58/4F",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "51",
+      "insert": [
+        1300.0,
+        200.0,
+        0.0
+      ],
+      "insert_path": [
+        "60",
+        "58"
+      ],
+      "key": "60/58/51",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "SWITCH_1G",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "5A",
+      "insert": [
+        1000.0,
+        1500.0,
+        0.0
+      ],
+      "insert_path": [
+        "60"
+      ],
+      "key": "60/5A",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4D",
+      "insert": [
+        300.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "62",
+        "56"
+      ],
+      "key": "62/56/4D",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4F",
+      "insert": [
+        900.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "62",
+        "56"
+      ],
+      "key": "62/56/4F",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "51",
+      "insert": [
+        1300.0,
+        200.0,
+        0.0
+      ],
+      "insert_path": [
+        "62",
+        "56"
+      ],
+      "key": "62/56/51",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4D",
+      "insert": [
+        300.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "62",
+        "58"
+      ],
+      "key": "62/58/4D",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4F",
+      "insert": [
+        900.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "62",
+        "58"
+      ],
+      "key": "62/58/4F",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "51",
+      "insert": [
+        1300.0,
+        200.0,
+        0.0
+      ],
+      "insert_path": [
+        "62",
+        "58"
+      ],
+      "key": "62/58/51",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "SWITCH_1G",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "5A",
+      "insert": [
+        1000.0,
+        1500.0,
+        0.0
+      ],
+      "insert_path": [
+        "62"
+      ],
+      "key": "62/5A",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4D",
+      "insert": [
+        300.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "64",
+        "56"
+      ],
+      "key": "64/56/4D",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4F",
+      "insert": [
+        900.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "64",
+        "56"
+      ],
+      "key": "64/56/4F",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "51",
+      "insert": [
+        1300.0,
+        200.0,
+        0.0
+      ],
+      "insert_path": [
+        "64",
+        "56"
+      ],
+      "key": "64/56/51",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4D",
+      "insert": [
+        300.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "64",
+        "58"
+      ],
+      "key": "64/58/4D",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "4F",
+      "insert": [
+        900.0,
+        500.0,
+        0.0
+      ],
+      "insert_path": [
+        "64",
+        "58"
+      ],
+      "key": "64/58/4F",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "51",
+      "insert": [
+        1300.0,
+        200.0,
+        0.0
+      ],
+      "insert_path": [
+        "64",
+        "58"
+      ],
+      "key": "64/58/51",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "SWITCH_1G",
+      "effective_layer": "E-UNIT",
+      "grid": null,
+      "handle": "5A",
+      "insert": [
+        1000.0,
+        1500.0,
+        0.0
+      ],
+      "insert_path": [
+        "64"
+      ],
+      "key": "64/5A",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    }
+  ],
+  "non_insert_entities": [],
+  "notes": [
+    "wrappers carry own polyline geometry; spec F-005/F-009 does not say whether such a wrapper counts as UNMAPPED. Truth treats descended wrappers as containers (not attributed).",
+    "children are on layer '0' -> effective layer = wrapper top INSERT layer (E-UNIT)"
+  ],
+  "rules_active": [
+    "R01",
+    "R02",
+    "R03"
+  ],
+  "scenarios": {
+    "default": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 0,
+        "mapped": 27,
+        "total": 27,
+        "unclassified": 0,
+        "unmapped": 0
+      },
+      "config": {},
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {},
+      "file_status": "OK",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {
+        "SYN-LIGHT-A": 16,
+        "SYN-OUTLET-2P": 8,
+        "SYN-SWITCH-1G": 3
+      },
+      "unclassified_by_spec": [],
+      "unmapped": [],
+      "warnings": []
+    }
+  },
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109,
+  "t_ids": [
+    "T-02"
+  ],
+  "title": "unmapped wrapper blocks, 2 and 3 levels",
+  "units": {
+    "expected_unit": "mm",
+    "insunits": 4
+  }
+}

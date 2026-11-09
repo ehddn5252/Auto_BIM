@@ -1,0 +1,20 @@
+{
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "files": [
+    "t19_floor1.dxf",
+    "t19_floor2.dxf",
+    "t19_floor3.dxf"
+  ],
+  "schema": "synth-expected/0-provisional",
+  "set": "t19_set",
+  "set_quantities": {
+    "SYN-LIGHT-A": 11,
+    "SYN-OUTLET-2P": 9,
+    "SYN-PANEL-DB": 13,
+    "SYN-SWITCH-1G": 8
+  },
+  "set_warnings": [],
+  "t_ids": [
+    "T-19"
+  ]
+}

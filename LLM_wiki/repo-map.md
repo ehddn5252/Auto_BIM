@@ -1,6 +1,6 @@
 # Repo Map
 
-> 2026-11-09 기준. 아직 코드가 없는 초기 상태 — 아래 `src/`·`tests/` 구조는 계획이며, 생성 시 이 문서를 갱신한다.
+> 2026-11-09 기준. 정식 코드(`src/`)는 없고 `spikes/`에 조사용 스파이크만 있다 — 아래 `src/`·`tests/` 구조는 계획이며, Gate 2 ADR 승인 후 생성 시 이 문서를 갱신한다(D-012).
 
 ## 폴더 역할
 
@@ -12,7 +12,9 @@
 | `.claude/hooks/backup-session.cjs` | 세션 종료 시 `prompt_backup/auto/` 자동 백업 | — |
 | `LLM_wiki/` | 정제 지식 | `bim-docs` |
 | `docs/ceo_prompt.md`, `docs/decisions.md` | 비전·제약 / 결정 로그 | `bim-ceo` |
-| `docs/planning_document.md`, `docs/feature_definition.md` | 기획 / F-ID | `bim-planner` |
+| `docs/planning_document.md` | 기획 문서(Gate 1 조건부 승인, D-008). 대상 사용자·저니·성공 지표·사용자 질의 | `bim-planner` |
+| `docs/feature_definition.md` | 기능 정의서 v0.2: F-ID, 공통 규칙 C-1~C-8, 함정 T-01~T-21, 0절 상태 어휘·경고 코드·단가 출처 유형 표 | `bim-planner` |
+| `spikes/` | ezdxf 스파이크 전용 조사용 코드(D-012). **정식 코드 아님**, `src/` 밖, ezdxf 버전 고정, 입력은 합성·예제 DXF만. 결과는 Gate 2 ADR 입력 | `cad-parser` |
 | `docs/adr/` | 아키텍처 결정 기록 (ADR 초안 → CEO 판정) | 개발 계열 에이전트 |
 | `docs/research/` | 조사 원문 | `bim-researcher` |
 | `docs/qa/` | 검증 리포트 | `estimate-verifier` |

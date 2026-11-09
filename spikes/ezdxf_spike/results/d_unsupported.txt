@@ -1,0 +1,17 @@
+EMPTY 3DSOLID survives save/load? NO (dropped)
+creation status:
+   3DSOLID ('created', '3DSOLID')
+   REGION ('created', 'REGION')
+   BODY ('created', 'BODY')
+   PROXY(ACAD_PROXY_ENTITY) ('created', 'ACAD_PROXY_ENTITY')
+   UNDERLAY(PDF) ('created', 'PDFUNDERLAY')
+   IMAGE ('created', 'IMAGE')
+   XREF def+INSERT ('created', 'INSERT')
+msp types after reload: {'3DSOLID': 1, 'REGION': 1, 'BODY': 1, 'ACAD_PROXY_ENTITY': 1, 'PDFUNDERLAY': 1, 'IMAGE': 1, 'INSERT': 1}
+xref blocks after reload: [('XR_PLAN', True, False, 'missing_ref.dxf')]
+XREF insert.is_xref(): [True]
+types in patched file: ['ACAD_PROXY_ENTITY', 'BODY', 'FOOBAR_THING', 'IMAGE', 'INSERT', 'PDFUNDERLAY', 'REGION']
+unknown entity reloaded as: [('FOOBAR_THING', 'DXFTagStorage', '2F')]
+audit errors: [] fixes: 0
+types present after reload: ['3DSOLID', 'ACAD_PROXY_ENTITY', 'BODY', 'IMAGE', 'INSERT', 'PDFUNDERLAY', 'REGION']
+RESULT d: SUCCESS created=['3DSOLID', 'BODY', 'IMAGE', 'PROXY(ACAD_PROXY_ENTITY)', 'REGION', 'UNDERLAY(PDF)', 'XREF def+INSERT'] failed=[]; ACIS bodies are empty shells (no real SAT/SAB geometry) - enough to test warning codes, not geometry; PROXY is a stub (no real graphics); XREF target file deliberately absent

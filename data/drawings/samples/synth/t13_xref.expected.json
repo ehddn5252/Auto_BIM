@@ -1,0 +1,200 @@
+{
+  "case": "t13_xref",
+  "container_instances": [],
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "dxf_version": "R2018",
+  "extra": {
+    "generation": {
+      "lights": 4,
+      "xref_inserts": 1
+    }
+  },
+  "file": "t13_xref.dxf",
+  "instances": [
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "40",
+      "insert": [
+        22500.0,
+        16000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "40",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "42",
+      "insert": [
+        28500.0,
+        16000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "42",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "44",
+      "insert": [
+        12000.0,
+        13000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "44",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "46",
+      "insert": [
+        19500.0,
+        22000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "46",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "XR_PLAN",
+      "effective_layer": "A-WALL",
+      "grid": null,
+      "handle": "48",
+      "insert": [
+        25500.0,
+        4000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "48",
+      "layer": "A-WALL",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "xref": true
+      }
+    }
+  ],
+  "non_insert_entities": [],
+  "notes": [
+    "spec gap: F-009 attribution has no bucket for XREF INSERT instances -> 'unclassified_by_spec'"
+  ],
+  "rules_active": [
+    "R01",
+    "R02"
+  ],
+  "scenarios": {
+    "default": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 0,
+        "mapped": 4,
+        "total": 5,
+        "unclassified": 1,
+        "unmapped": 0
+      },
+      "config": {},
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {},
+      "file_status": "INCOMPLETE",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {
+        "SYN-LIGHT-A": 4
+      },
+      "unclassified_by_spec": [
+        [
+          "48",
+          "UNCLASSIFIED_BY_SPEC",
+          "XREF_INSERT"
+        ]
+      ],
+      "unmapped": [],
+      "warnings": [
+        {
+          "block": "XR_PLAN",
+          "code": "XREF",
+          "handle": "3D",
+          "target": "block_definition",
+          "xref_path": "missing_ref_plan.dxf"
+        },
+        {
+          "block": "XR_PLAN",
+          "code": "XREF",
+          "handle": "48",
+          "insert_path": [],
+          "target": "insert"
+        }
+      ]
+    }
+  },
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109,
+  "t_ids": [
+    "T-13"
+  ],
+  "title": "XREF to a file that does not exist",
+  "units": {
+    "expected_unit": "mm",
+    "insunits": 4
+  }
+}

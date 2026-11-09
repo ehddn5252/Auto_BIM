@@ -1,0 +1,25 @@
+layer states after file round-trip:
+  0: frozen=False off=False locked=False
+  E-LIGHT: frozen=False off=False locked=False
+  E-FROZEN: frozen=True off=False locked=False
+  E-OFF: frozen=False off=True locked=False
+  E-FIX: frozen=False off=False locked=False
+leaf geometry: (insert-path, handle, declared layer, effective layer, hidden-cause)
+   (('47', '3B'), '36', '0', 'E-LIGHT', None)
+   (('47', '3B'), '37', 'E-FIX', 'E-FIX', None)
+   (('49', '3B'), '36', '0', 'E-LIGHT', 'frozen:E-FROZEN')
+   (('49', '3B'), '37', 'E-FIX', 'E-FIX', 'frozen:E-FROZEN')
+   (('4B', '3B'), '36', '0', 'E-LIGHT', 'off:E-OFF')
+   (('4B', '3B'), '37', 'E-FIX', 'E-FIX', 'off:E-OFF')
+   (('4D', '40'), '36', '0', 'E-FROZEN', 'frozen:E-FROZEN')
+   (('4D', '40'), '37', 'E-FIX', 'E-FIX', 'frozen:E-FROZEN')
+   (('4F', '45'), '36', '0', 'E-OFF', 'off:E-OFF')
+   (('4F', '45'), '37', 'E-FIX', 'E-FIX', 'off:E-OFF')
+   (('51', '3B'), '36', '0', 'E-LIGHT', 'entity_invisible')
+   (('51', '3B'), '37', 'E-FIX', 'E-FIX', 'entity_invisible')
+virtual_entities of first MID insert (declared layers as ezdxf reports them):
+    INSERT E-LIGHT handle= None
+virtual_entities of a direct LEAF insert on E-LIGHT (layer '0' child):
+    CIRCLE layer= 0
+    CIRCLE layer= E-FIX
+RESULT b: SUCCESS (with own logic) ezdxf exposes layer.is_frozen()/is_off() and raw layer names but does NOT resolve layer-0 inheritance or hidden-by-parent; parser must implement effective-layer walk (demonstrated: causes seen = ['entity_invisible', 'frozen:E-FROZEN', 'off:E-OFF']).

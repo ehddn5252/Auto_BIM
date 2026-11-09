@@ -1,0 +1,238 @@
+{
+  "coverage": {
+    "T-01": {
+      "cases": "t01_basic",
+      "note": "",
+      "status": "SYNTHESIZED"
+    },
+    "T-02": {
+      "cases": "t02_nested",
+      "note": "2- and 3-level wrappers",
+      "status": "SYNTHESIZED"
+    },
+    "T-03": {
+      "cases": "t03_nested_match_hidden",
+      "note": "scenarios default/descend_all; incl. false-alarm control",
+      "status": "SYNTHESIZED"
+    },
+    "T-04": {
+      "cases": "t04_dynamic",
+      "note": "(b) unresolvable *U fully synthesised. (a) resolvable *U uses SYNTHETIC ezdxf-documented markers; real AutoCAD marker shape unverified -> real-drawing stage must confirm",
+      "status": "PARTIAL"
+    },
+    "T-05": {
+      "cases": "t05_attrib",
+      "note": "",
+      "status": "SYNTHESIZED"
+    },
+    "T-06": {
+      "cases": "t06_mm_file+t06_m_file+t06_set",
+      "note": "SET_UNIT_DIFF, BLOCK_UNIT_DIFF",
+      "status": "SYNTHESIZED"
+    },
+    "T-07": {
+      "cases": "t07_insunits_missing+t07_insunits_zero",
+      "note": "",
+      "status": "SYNTHESIZED"
+    },
+    "T-08": {
+      "cases": "t08_scale_rot_mirror",
+      "note": "",
+      "status": "SYNTHESIZED"
+    },
+    "T-09": {
+      "cases": "t09_hidden_layers",
+      "note": "files synthesised; truth for parent-hidden children follows AutoCAD display rule which could not be verified without a CAD program; viewport-level VP freeze not synthesised",
+      "status": "PARTIAL"
+    },
+    "T-10": {
+      "cases": "t10_paper_space",
+      "note": "viewport layer overrides not covered",
+      "status": "SYNTHESIZED"
+    },
+    "T-11": {
+      "cases": "t11_duplicates",
+      "note": "",
+      "status": "SYNTHESIZED"
+    },
+    "T-12": {
+      "cases": "t12_legend",
+      "note": "",
+      "status": "SYNTHESIZED"
+    },
+    "T-13": {
+      "cases": "t13_xref",
+      "note": "target file intentionally absent; attribution bucket for XREF INSERT unspecified",
+      "status": "SYNTHESIZED"
+    },
+    "T-14": {
+      "cases": "t14_minsert+t14b_minsert_zero_spacing",
+      "note": "3x4 and rotated 2x5 synthesised with truth; spacing-0 case has NO truth (behaviour ambiguous)",
+      "status": "PARTIAL"
+    },
+    "T-15": {
+      "cases": "t15_layer0_inherit",
+      "note": "",
+      "status": "SYNTHESIZED"
+    },
+    "T-16": {
+      "cases": "t16_non_block_symbols",
+      "note": "",
+      "status": "SYNTHESIZED"
+    },
+    "T-17": {
+      "cases": "t17_acis_proxy_underlay",
+      "note": "type-level stubs only (fake ACIS payload, empty proxy, nonexistent underlay files); real ACIS/SAB, real proxy graphics not synthesisable -> real-drawing stage",
+      "status": "PARTIAL"
+    },
+    "T-18": {
+      "cases": "t18_conflict",
+      "note": "",
+      "status": "SYNTHESIZED"
+    },
+    "T-19": {
+      "cases": "t19_floor1..3+t19_set (+ identical-copy negative set)",
+      "note": "",
+      "status": "SYNTHESIZED"
+    },
+    "T-20": {
+      "cases": "t20_corrupt+t20_empty",
+      "note": "corrupt file is hand-built bytes; read failure verified by test",
+      "status": "SYNTHESIZED"
+    },
+    "T-21": {
+      "cases": "t21_unused_definitions",
+      "note": "",
+      "status": "SYNTHESIZED"
+    }
+  },
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "ezdxf": "1.4.5",
+  "files": {
+    "t01_basic.dxf": "15675e7efb3d6ce10445d427d7bbad5ec9129f67d26bf829f23495200ad63a54",
+    "t02_nested.dxf": "73af8e085123ca643626bba135b8444691c098ca2f25accdf566b4e7d2c1590f",
+    "t03_nested_match_hidden.dxf": "05f338934931d6119fb1039964384c900fb6b5c20fc2c10d3f1f731c47921e35",
+    "t04_dynamic.dxf": "9dccbe8db1244562f55bd83a4d7134198a72d9ee3ccc35435099b27fa19fffb1",
+    "t05_attrib.dxf": "cb4387123b0d9d72b271cd2970bf6c8ee615cb6619f6eb996633445c758b43ad",
+    "t06_m_file.dxf": "d1e1b0195e39d4a91e15b738f34cc7d56493e837006b8688cfe77f8eb89e9790",
+    "t06_mm_file.dxf": "c3e4445e6da0b046012d53cce9f54c60bc96eeda947a1d732a514fac3ba4e268",
+    "t07_insunits_missing.dxf": "05cde97e190f986653757e92bf014aa45344f61b36b8447a0fddfbd7b19caea4",
+    "t07_insunits_zero.dxf": "2c6ae6c175cfe1d4e2b9d25529662e48c66df70ec6f4212e3afc66376026167d",
+    "t08_scale_rot_mirror.dxf": "6c24f83daaab1e7acfb5ce22e0d2dfa3f13d3fed88fa2f7b0e3e0a105ea27335",
+    "t09_hidden_layers.dxf": "441e1db0066ab15b63b1c8fc424518a3abba59dc2b81f4763a5c58e40745b4cd",
+    "t10_paper_space.dxf": "b4011e8efb1733243ad3eaf6091a858e77d4909a11bdcd040439762e20e79f45",
+    "t11_duplicates.dxf": "5e1c7a7410adce6c7f71b295c60907fe277d79122f64cd67223ac33df1aac857",
+    "t12_legend.dxf": "02e49f3f2c83c492fba3923059a11702b881176d7cc800b4abd5e6f39b36c28b",
+    "t13_xref.dxf": "25e64958a92a6557f04336ca051d4dffe85d659255c550427a3f305bcf9c1374",
+    "t14_minsert.dxf": "2b81813247330e5b255032c1ec4830df47ab1e67da8cb2e6897bb7f654aaa7d3",
+    "t14b_minsert_zero_spacing.dxf": "f782995e239aaa19351b7ffdd9d9c097c07efc224edfc3b603ff22e2f02eaa2f",
+    "t15_layer0_inherit.dxf": "75bb29709c1833f262d68bf8af0cab267cba98d4c472db9d6d75aee7e2bea025",
+    "t16_non_block_symbols.dxf": "e9fd3e059bd928093d3573f17390fe29ca266e8524dece0e50a47bb601d79dcb",
+    "t17_acis_proxy_underlay.dxf": "44a5f277bbfa6aa96afd984372c5268c82c303d1fa8f00529eb8b423d6ec0b3b",
+    "t18_conflict.dxf": "83733403148b0b262a75c93342ed88cadee40bfa405035285b619943f61eb1f3",
+    "t19_floor1.dxf": "ca18fe47f3507738fba4ac96be4283705082b45221152c59e4c7b27bb32be491",
+    "t19_floor1_copy.dxf": "ca18fe47f3507738fba4ac96be4283705082b45221152c59e4c7b27bb32be491",
+    "t19_floor2.dxf": "86df236bcf4d23d4785773467a6e1a04eba080ec3d3f99130fc7bfdd9ac7f2c4",
+    "t19_floor3.dxf": "d78938d2f92480d0a52048c47433c5bc6dbdfdfbe02e0000b7a8f7b208cb6888",
+    "t20_corrupt.dxf": "073f0dd277d05f0c1f23fe5b74ab375cb0ce465055ca91f002d949e3ba6785de",
+    "t20_empty.dxf": "4663287526d605f88c5f7237dacc2c6ab0b9db0e178119512e98955b9c8b5989",
+    "t21_unused_definitions.dxf": "39c17a6732b67302690e2e2c09cac5115c9409ea39e84ab21c38bb981ff5efa8"
+  },
+  "items_synthetic": {
+    "BREAKER": "SYN-BREAKER",
+    "LIGHT_A": "SYN-LIGHT-A",
+    "LIGHT_DYN": "SYN-LIGHT-DYN",
+    "OUTLET_2P": "SYN-OUTLET-2P",
+    "PANEL_DB": "SYN-PANEL-DB",
+    "SWITCH_1G": "SYN-SWITCH-1G"
+  },
+  "python": "3.14.4",
+  "rules": [
+    {
+      "block": "LIGHT_A",
+      "id": "R01",
+      "priority": 10,
+      "result": "SYN-LIGHT-A"
+    },
+    {
+      "block": "OUTLET_2P",
+      "id": "R02",
+      "priority": 10,
+      "result": "SYN-OUTLET-2P"
+    },
+    {
+      "block": "SWITCH_1G",
+      "id": "R03",
+      "priority": 10,
+      "result": "SYN-SWITCH-1G"
+    },
+    {
+      "block": "PANEL_DB",
+      "descend": false,
+      "id": "R04",
+      "priority": 10,
+      "result": "SYN-PANEL-DB"
+    },
+    {
+      "block": "BREAKER",
+      "id": "R05",
+      "priority": 10,
+      "result": "SYN-BREAKER"
+    },
+    {
+      "block": "WRAP_IGN",
+      "descend": false,
+      "id": "R06",
+      "priority": 10,
+      "reason": "synthetic wrapper",
+      "result": "IGNORE"
+    },
+    {
+      "block": "LIGHT_DYN",
+      "id": "R07",
+      "note": "matched by ORIGINAL name of dynamic block",
+      "priority": 10,
+      "result": "SYN-LIGHT-DYN"
+    },
+    {
+      "attrib": {
+        "WATT": "20"
+      },
+      "block": "LIGHT_W",
+      "id": "R08",
+      "priority": 10,
+      "result": "SYN-LIGHT-20W"
+    },
+    {
+      "attrib": {
+        "WATT": "40"
+      },
+      "block": "LIGHT_W",
+      "id": "R09",
+      "priority": 10,
+      "result": "SYN-LIGHT-40W"
+    },
+    {
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT-EM",
+      "id": "R10",
+      "priority": 20,
+      "result": "SYN-LIGHT-EM"
+    },
+    {
+      "block": "SWITCH_2G",
+      "id": "R11",
+      "priority": 10,
+      "result": "SYN-SWITCH-2G"
+    },
+    {
+      "block": "SWITCH_2G",
+      "effective_layer": "E-SWITCH-X",
+      "id": "R12",
+      "priority": 10,
+      "result": "SYN-SWITCH-ALT"
+    }
+  ],
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109
+}

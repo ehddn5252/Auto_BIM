@@ -31,8 +31,19 @@ description: Auto_BIM을 위해 인터넷 조사 → 기획/결정 반영 → (�
 
 ## 기록 (이 루프가 반영한 것)
 
-- (아직 없음)
+- 2026-11-09 실행 1 (5사이클, 독립 조사 3건 병렬)
+  - C1 도면 입력 수단 → D-002 APPROVE(DXF+ezdxf 코어, DWG는 사용자 DXF 저장 기본) — `docs/research/2026-11-09_drawing-input-tools.md`
+  - C2 적산 기준·단가 출처 → D-005~D-007 APPROVE(무료 CSV 스냅샷, CAK 노임, 제비율 기본값 없음, MVP=수량산출서+직접공사비 내역서) — `docs/research/2026-11-09_cost-standards-and-price-sources.md`
+  - C3 샘플·공종·경쟁 → D-003(전기 기구 개수, 잠정), D-004(합성 DXF) — `docs/research/2026-11-09_samples-trade-scope-competitors.md`
+  - C4 기획·F-ID → Gate 1 조건부 승인 D-008~D-012, 후속 D-013~D-016 — `docs/planning_document.md`, `docs/feature_definition.md` v0.2
+  - C5 ezdxf 스파이크 + 합성 DXF 생성기(spikes/) — `docs/research/2026-11-09_ezdxf-spike-results.md`
 
 ## 보류 (다음 사이클 참고, 바로 만들지 말 것)
 
-- (아직 없음)
+- 조사: 전기공사 직종 노임 공표 기관·위치 (D-015)
+- 조사: 예정가격작성기준 현행 예규 번호·원 미만 처리 조문 (D-016)
+- Gate 2 ADR: 레코드 스키마·규칙 파일 형식·xlsx 생성 수단·프로젝트 구조 (스파이크 결과 기반, D-012) — 승인 후 `src/auto_bim/` 정식 코드 착수
+- 명세 공백(스파이크 발견, planner→CEO): F-009 귀속 등식 분모에 컨테이너 INSERT·XREF INSERT 포함 여부 / 자체 도형 있는 래퍼 블록의 UNMAPPED 여부 / F-006 `LAYER_OFF`의 부모 경로 문구
+- 실CAD 확인 필요: 동적 블록 마커 실제 형태, 동결·끔 표시 규칙, MINSERT spacing 0 (실도면/CAD 확보 후)
+- ezdxf 저장소 예제 DXF 스모크(D-004 b) 미실행
+- 사용자 질문 1~13 답변 대기 (업무 분야, 도면 형식, CAD 보유, ODA, 유료 SDK, 나라장터, 정답 데이터, data.go.kr, 물가정보지, 사용 형태, 정답 세트, 품셈 열람, 실무 도구)
