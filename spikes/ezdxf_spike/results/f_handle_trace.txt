@@ -1,0 +1,10 @@
+handles stable across save/load: True
+records: 5
+   {'space': 'Model', 'block': 'LAMP', 'handle': '36', 'insert_path': ['3A'], 'owner': '33', 'owner_name': 'ROOM'} OK
+   {'space': 'Model', 'block': 'LAMP', 'handle': '38', 'insert_path': ['3A'], 'owner': '33', 'owner_name': 'ROOM'} OK
+   {'space': 'Model', 'block': 'LAMP', 'handle': '36', 'insert_path': ['3C'], 'owner': '33', 'owner_name': 'ROOM'} OK
+   {'space': 'Model', 'block': 'LAMP', 'handle': '38', 'insert_path': ['3C'], 'owner': '33', 'owner_name': 'ROOM'} OK
+   {'space': 'Paper:Layout1', 'block': 'LAMP', 'handle': '3E', 'insert_path': [], 'owner': '1B', 'owner_name': '*Paper_Space'} OK
+virtual_entities handles: [None, None] (None => not traceable; walk INSERTs instead)
+virtual entity source_of_copy handles: ['36', '38']
+RESULT f: SUCCESS entitydb.get(handle) re-finds the INSERT and every INSERT in insert_path; handles stable across save/load; handle is unique per DOCUMENT (same block-def entity is shared by all instances, so instance identity = insert_path + handle, NOT handle alone); virtual_entities() yields handle=None

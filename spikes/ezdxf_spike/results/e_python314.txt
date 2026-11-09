@@ -1,0 +1,4 @@
+python: 3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]
+ezdxf : 1.4.5 | C-extensions: True
+reload ok; entities: 1 | audit errors: 0
+RESULT e: SUCCESS Python 3.14.4 + ezdxf 1.4.5: install, save/load/audit OK with warnings=error

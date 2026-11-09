@@ -1,0 +1,8 @@
+file: C:\Users\주아\AppData\Local\Temp\ezdxf_spike_c6c37i8y\dyn.dxf
+INSERT 42 name='LIGHT_DYN_A' anonymous=False is_dyn_def=True resolved_def='LIGHT_DYN_A' trueName_xdata=None
+INSERT 44 name='*U1' anonymous=True is_dyn_def=False resolved_def='LIGHT_DYN_A' trueName_xdata='LIGHT_DYN_A'
+INSERT 46 name='*U2' anonymous=True is_dyn_def=False resolved_def=None trueName_xdata=None
+INSERT 48 name='*U3' anonymous=True is_dyn_def=False resolved_def=None trueName_xdata=None
+block_record.has_extension_dict (synthetic, none created): False
+AcDbDynamicBlockPurgePreventer: no ezdxf support; only appears as a REAL-FILE xdata/appid, cannot be exercised without a real AutoCAD file -> UNVERIFIED
+RESULT a: PARTIAL resolved 2/4 inserts via AcDbBlockRepBTag -> ['LIGHT_DYN_A', 'LIGHT_DYN_A']; unresolvable *U (no tag / dangling tag) correctly return None (-> DYNAMIC_UNRESOLVED). Real-AutoCAD marker shape UNVERIFIED (synthetic markers).

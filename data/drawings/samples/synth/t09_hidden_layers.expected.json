@@ -1,0 +1,454 @@
+{
+  "case": "t09_hidden_layers",
+  "container_instances": [
+    {
+      "block": "ROOM_W",
+      "handle": "5E",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "ROOM_W",
+      "handle": "60",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "ROOM_W",
+      "handle": "62",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "ROOM_W2",
+      "handle": "64",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "ROOM_W3",
+      "handle": "66",
+      "insert_path": [],
+      "space": "Model"
+    }
+  ],
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "dxf_version": "R2018",
+  "extra": {
+    "generation": {
+      "direct_frozen": 3,
+      "direct_off": 1,
+      "direct_visible": 3,
+      "wrap_child_frozen": 3,
+      "wrap_on_frozen": 1,
+      "wrap_on_off": 1
+    }
+  },
+  "file": "t09_hidden_layers.dxf",
+  "instances": [
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "50",
+      "insert": [
+        27000.0,
+        13000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "50",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "52",
+      "insert": [
+        7500.0,
+        13000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "52",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "54",
+      "insert": [
+        7500.0,
+        2500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "54",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-FROZEN",
+      "grid": null,
+      "handle": "56",
+      "insert": [
+        28500.0,
+        10000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "56",
+      "layer": "E-FROZEN",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-FROZEN",
+      "grid": null,
+      "handle": "58",
+      "insert": [
+        7500.0,
+        8500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "58",
+      "layer": "E-FROZEN",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-FROZEN",
+      "grid": null,
+      "handle": "5A",
+      "insert": [
+        6000.0,
+        22000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "5A",
+      "layer": "E-FROZEN",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-OFF",
+      "grid": null,
+      "handle": "5C",
+      "insert": [
+        9000.0,
+        19000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "5C",
+      "layer": "E-OFF",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-FROZEN",
+      "grid": null,
+      "handle": "42",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "5E"
+      ],
+      "key": "5E/42",
+      "layer": "E-FROZEN",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-FROZEN",
+      "grid": null,
+      "handle": "42",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "60"
+      ],
+      "key": "60/42",
+      "layer": "E-FROZEN",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-FROZEN",
+      "grid": null,
+      "handle": "42",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "62"
+      ],
+      "key": "62/42",
+      "layer": "E-FROZEN",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "47",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "64"
+      ],
+      "key": "64/47",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "4C",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "66"
+      ],
+      "key": "66/4C",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-OFF",
+      "grid": null,
+      "handle": "4E",
+      "insert": [
+        400.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "66"
+      ],
+      "key": "66/4E",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    }
+  ],
+  "non_insert_entities": [],
+  "notes": [
+    "wrap_on_off / wrap_on_frozen: truth follows AutoCAD display (a hidden parent INSERT hides all children). Spec F-006 words LAYER_OFF as 'effective layer off' only -> gap, see report. AutoCAD behaviour NOT verified here (no CAD available).",
+    "precedence: LAYER_FROZEN before LAYER_OFF (F-006 order)"
+  ],
+  "rules_active": [
+    "R01"
+  ],
+  "scenarios": {
+    "default": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 10,
+        "mapped": 3,
+        "total": 13,
+        "unclassified": 0,
+        "unmapped": 0
+      },
+      "config": {
+        "include_hidden": false
+      },
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {
+        "LAYER_FROZEN": [
+          "56",
+          "58",
+          "5A",
+          "5E/42",
+          "60/42",
+          "62/42",
+          "64/47"
+        ],
+        "LAYER_OFF": [
+          "5C",
+          "66/4C",
+          "66/4E"
+        ]
+      },
+      "file_status": "OK",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 7,
+        "LAYER_OFF": 3,
+        "total": 10
+      },
+      "quantities": {
+        "SYN-LIGHT-A": 3
+      },
+      "unclassified_by_spec": [],
+      "unmapped": [],
+      "warnings": []
+    },
+    "include_hidden": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 0,
+        "mapped": 13,
+        "total": 13,
+        "unclassified": 0,
+        "unmapped": 0
+      },
+      "config": {
+        "include_hidden": true
+      },
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {},
+      "file_status": "OK",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {
+        "SYN-LIGHT-A": 13
+      },
+      "unclassified_by_spec": [],
+      "unmapped": [],
+      "warnings": []
+    }
+  },
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109,
+  "t_ids": [
+    "T-09"
+  ],
+  "title": "frozen/off layers, direct and via nested parents",
+  "units": {
+    "expected_unit": "mm",
+    "insunits": 4
+  }
+}

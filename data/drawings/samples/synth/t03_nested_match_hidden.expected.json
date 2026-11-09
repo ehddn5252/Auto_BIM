@@ -1,0 +1,501 @@
+{
+  "case": "t03_nested_match_hidden",
+  "container_instances": [],
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "dxf_version": "R2018",
+  "extra": {
+    "generation": {
+      "breakers_per_panel": 2,
+      "lights_per_wrapper": 2,
+      "outlets_with_unmatched_child": 1,
+      "panels": 2,
+      "wrappers": 2
+    }
+  },
+  "file": "t03_nested_match_hidden.dxf",
+  "instances": [
+    {
+      "attribs": {},
+      "block": "PANEL_DB",
+      "effective_layer": "E-PANEL",
+      "grid": null,
+      "handle": "65",
+      "insert": [
+        18000.0,
+        7000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "65",
+      "layer": "E-PANEL",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "BREAKER",
+      "effective_layer": "E-PANEL",
+      "grid": null,
+      "handle": "5B",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "65"
+      ],
+      "key": "65/5B",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "hidden_by_stop": true
+      }
+    },
+    {
+      "attribs": {},
+      "block": "BREAKER",
+      "effective_layer": "E-PANEL",
+      "grid": null,
+      "handle": "5D",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "65"
+      ],
+      "key": "65/5D",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "hidden_by_stop": true
+      }
+    },
+    {
+      "attribs": {},
+      "block": "PANEL_DB",
+      "effective_layer": "E-PANEL",
+      "grid": null,
+      "handle": "67",
+      "insert": [
+        12000.0,
+        19000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "67",
+      "layer": "E-PANEL",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "BREAKER",
+      "effective_layer": "E-PANEL",
+      "grid": null,
+      "handle": "5B",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "67"
+      ],
+      "key": "67/5B",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "hidden_by_stop": true
+      }
+    },
+    {
+      "attribs": {},
+      "block": "BREAKER",
+      "effective_layer": "E-PANEL",
+      "grid": null,
+      "handle": "5D",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "67"
+      ],
+      "key": "67/5D",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "hidden_by_stop": true
+      }
+    },
+    {
+      "attribs": {},
+      "block": "WRAP_IGN",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "69",
+      "insert": [
+        21000.0,
+        14500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "69",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "5F",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "69"
+      ],
+      "key": "69/5F",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "hidden_by_stop": true
+      }
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "61",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "69"
+      ],
+      "key": "69/61",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "hidden_by_stop": true
+      }
+    },
+    {
+      "attribs": {},
+      "block": "WRAP_IGN",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "6B",
+      "insert": [
+        10500.0,
+        17500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "6B",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "5F",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "6B"
+      ],
+      "key": "6B/5F",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "hidden_by_stop": true
+      }
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "61",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "6B"
+      ],
+      "key": "6B/61",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "hidden_by_stop": true
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": null,
+      "handle": "6D",
+      "insert": [
+        9000.0,
+        8500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "6D",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    }
+  ],
+  "non_insert_entities": [],
+  "notes": [
+    "PLATE_X child of OUTLET_2P matches no rule -> must NOT raise NESTED_MATCH_HIDDEN (false-alarm check)",
+    "scenario descend_all: descend=true on R04 and R06 -> 0 NESTED_MATCH_HIDDEN, children counted"
+  ],
+  "rules_active": [
+    "R01",
+    "R02",
+    "R04",
+    "R05",
+    "R06"
+  ],
+  "scenarios": {
+    "default": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 2,
+        "mapped": 3,
+        "total": 5,
+        "unclassified": 0,
+        "unmapped": 0
+      },
+      "config": {
+        "descend": []
+      },
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {
+        "RULE_IGNORE": [
+          "69",
+          "6B"
+        ]
+      },
+      "file_status": "OK",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {
+        "SYN-OUTLET-2P": 1,
+        "SYN-PANEL-DB": 2
+      },
+      "unclassified_by_spec": [],
+      "unmapped": [],
+      "warnings": [
+        {
+          "code": "NESTED_MATCH_HIDDEN",
+          "handle": "65",
+          "hidden_by_result": "item",
+          "hidden_child_rules": [
+            "R05"
+          ],
+          "hidden_children": 2,
+          "insert_path": [],
+          "parent_block": "PANEL_DB",
+          "parent_result": "SYN-PANEL-DB",
+          "parent_rule": "R04"
+        },
+        {
+          "code": "NESTED_MATCH_HIDDEN",
+          "handle": "67",
+          "hidden_by_result": "item",
+          "hidden_child_rules": [
+            "R05"
+          ],
+          "hidden_children": 2,
+          "insert_path": [],
+          "parent_block": "PANEL_DB",
+          "parent_result": "SYN-PANEL-DB",
+          "parent_rule": "R04"
+        },
+        {
+          "code": "NESTED_MATCH_HIDDEN",
+          "handle": "69",
+          "hidden_by_result": "item",
+          "hidden_child_rules": [
+            "R01"
+          ],
+          "hidden_children": 2,
+          "insert_path": [],
+          "parent_block": "WRAP_IGN",
+          "parent_result": "IGNORE",
+          "parent_rule": "R06"
+        },
+        {
+          "code": "NESTED_MATCH_HIDDEN",
+          "handle": "6B",
+          "hidden_by_result": "item",
+          "hidden_child_rules": [
+            "R01"
+          ],
+          "hidden_children": 2,
+          "insert_path": [],
+          "parent_block": "WRAP_IGN",
+          "parent_result": "IGNORE",
+          "parent_rule": "R06"
+        }
+      ]
+    },
+    "descend_all": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 2,
+        "mapped": 11,
+        "total": 13,
+        "unclassified": 0,
+        "unmapped": 0
+      },
+      "config": {
+        "descend": [
+          "R04",
+          "R06"
+        ]
+      },
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {
+        "RULE_IGNORE": [
+          "69",
+          "6B"
+        ]
+      },
+      "file_status": "OK",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {
+        "SYN-BREAKER": 4,
+        "SYN-LIGHT-A": 4,
+        "SYN-OUTLET-2P": 1,
+        "SYN-PANEL-DB": 2
+      },
+      "unclassified_by_spec": [],
+      "unmapped": [],
+      "warnings": []
+    }
+  },
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109,
+  "t_ids": [
+    "T-03"
+  ],
+  "title": "matched parent hides matched children",
+  "units": {
+    "expected_unit": "mm",
+    "insunits": 4
+  }
+}

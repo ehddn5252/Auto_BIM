@@ -1,0 +1,272 @@
+{
+  "case": "t15_layer0_inherit",
+  "container_instances": [
+    {
+      "block": "EM_WRAP",
+      "handle": "43",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "EM_WRAP",
+      "handle": "45",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "EM_WRAP",
+      "handle": "47",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "EM_WRAP",
+      "handle": "49",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "EM_WRAP",
+      "handle": "4B",
+      "insert_path": [],
+      "space": "Model"
+    },
+    {
+      "block": "EM_WRAP",
+      "handle": "4D",
+      "insert_path": [],
+      "space": "Model"
+    }
+  ],
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "dxf_version": "R2018",
+  "extra": {
+    "generation": {
+      "direct_on_layer_0": 1,
+      "wrapper_on_E-LIGHT": 3,
+      "wrapper_on_E-LIGHT-EM": 3
+    }
+  },
+  "file": "t15_layer0_inherit.dxf",
+  "instances": [
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT-EM",
+      "grid": null,
+      "handle": "41",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "43"
+      ],
+      "key": "43/41",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT-EM",
+      "grid": null,
+      "handle": "41",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "45"
+      ],
+      "key": "45/41",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT-EM",
+      "grid": null,
+      "handle": "41",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "47"
+      ],
+      "key": "47/41",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "41",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "49"
+      ],
+      "key": "49/41",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "41",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "4B"
+      ],
+      "key": "4B/41",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "41",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "insert_path": [
+        "4D"
+      ],
+      "key": "4D/41",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "0",
+      "grid": null,
+      "handle": "4F",
+      "insert": [
+        22500.0,
+        2500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "4F",
+      "layer": "0",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    }
+  ],
+  "non_insert_entities": [],
+  "notes": [],
+  "rules_active": [
+    "R01",
+    "R10"
+  ],
+  "scenarios": {
+    "default": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 0,
+        "mapped": 7,
+        "total": 7,
+        "unclassified": 0,
+        "unmapped": 0
+      },
+      "config": {},
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {},
+      "file_status": "OK",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {
+        "SYN-LIGHT-A": 4,
+        "SYN-LIGHT-EM": 3
+      },
+      "unclassified_by_spec": [],
+      "unmapped": [],
+      "warnings": []
+    }
+  },
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109,
+  "t_ids": [
+    "T-15"
+  ],
+  "title": "layer-0 INSERT inside wrapper inherits wrapper layer; layer-conditional rule",
+  "units": {
+    "expected_unit": "mm",
+    "insunits": 4
+  }
+}

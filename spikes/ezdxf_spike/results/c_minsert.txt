@@ -1,0 +1,11 @@
+INSERT 33 rows=3 cols=4 row_sp=500.0 col_sp=800.0 mcount=12 expanded=12
+   first/last: (0.0, 0.0, 0.0) (2400.0, 1000.0, 0.0)
+INSERT 35 rows=3 cols=4 row_sp=500.0 col_sp=800.0 mcount=12 expanded=12
+   first/last: (0.0, 5000.0, 0.0) (-1000.0, 7400.0, 0.0)
+INSERT 37 rows=3 cols=4 row_sp=0 col_sp=800.0 mcount=4 expanded=4
+   first/last: (0.0, 9000.0, 0.0) (2400.0, 9000.0, 0.0)
+INSERT 39 rows=1 cols=1 row_sp=0 col_sp=0 mcount=1 expanded=1
+   first/last: (0.0, 12000.0, 0.0) (0.0, 12000.0, 0.0)
+total instances: 29
+naive INSERT count: 4 (row*col would say 12+12+12+1=37)
+RESULT c: SUCCESS MINSERT 3x4 -> 12 via Insert.multi_insert(); rotated grid correct; trap: row_spacing 0 collapses that direction (3x4 declared -> 4 instances, mcount=4) - parser must use Insert.mcount/multi_insert, not row_count*column_count

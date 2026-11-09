@@ -1,0 +1,189 @@
+{
+  "case": "t17_acis_proxy_underlay",
+  "container_instances": [],
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "dxf_version": "R2010",
+  "extra": {
+    "generation": {
+      "entities": [
+        [
+          "ACIS",
+          "3DSOLID"
+        ],
+        [
+          "ACIS",
+          "REGION"
+        ],
+        [
+          "ACIS",
+          "BODY"
+        ],
+        [
+          "PROXY",
+          "ACAD_PROXY_ENTITY"
+        ],
+        [
+          "UNDERLAY",
+          "PDFUNDERLAY"
+        ],
+        [
+          "UNDERLAY",
+          "DWFUNDERLAY"
+        ],
+        [
+          "UNDERLAY",
+          "DGNUNDERLAY"
+        ],
+        [
+          "UNDERLAY",
+          "IMAGE"
+        ]
+      ],
+      "synthesis_failures": []
+    }
+  },
+  "file": "t17_acis_proxy_underlay.dxf",
+  "instances": [
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "3D",
+      "insert": [
+        3000.0,
+        1000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "3F",
+      "insert": [
+        9000.0,
+        5500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3F",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    }
+  ],
+  "non_insert_entities": [],
+  "notes": [
+    "ACIS bodies carry FAKE payload (no geometry); PROXY has no proxy graphic; SAB (R2013+) not synthesised. These test warning detection only."
+  ],
+  "rules_active": [
+    "R01"
+  ],
+  "scenarios": {
+    "default": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 0,
+        "mapped": 2,
+        "total": 2,
+        "unclassified": 0,
+        "unmapped": 0
+      },
+      "config": {},
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {},
+      "file_status": "INCOMPLETE",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {
+        "SYN-LIGHT-A": 2
+      },
+      "unclassified_by_spec": [],
+      "unmapped": [],
+      "warnings": [
+        {
+          "code": "ACIS",
+          "entity_type": "3DSOLID",
+          "handle": "41",
+          "layer": "E-MISC"
+        },
+        {
+          "code": "ACIS",
+          "entity_type": "BODY",
+          "handle": "43",
+          "layer": "E-MISC"
+        },
+        {
+          "code": "ACIS",
+          "entity_type": "REGION",
+          "handle": "42",
+          "layer": "E-MISC"
+        },
+        {
+          "code": "PROXY",
+          "entity_type": "ACAD_PROXY_ENTITY",
+          "handle": "44",
+          "layer": "E-MISC"
+        },
+        {
+          "code": "UNDERLAY",
+          "entity_type": "DGNUNDERLAY",
+          "handle": "4D",
+          "layer": "E-MISC"
+        },
+        {
+          "code": "UNDERLAY",
+          "entity_type": "DWFUNDERLAY",
+          "handle": "4A",
+          "layer": "E-MISC"
+        },
+        {
+          "code": "UNDERLAY",
+          "entity_type": "IMAGE",
+          "handle": "51",
+          "layer": "E-MISC"
+        },
+        {
+          "code": "UNDERLAY",
+          "entity_type": "PDFUNDERLAY",
+          "handle": "47",
+          "layer": "E-MISC"
+        }
+      ]
+    }
+  },
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109,
+  "t_ids": [
+    "T-17"
+  ],
+  "title": "ACIS / PROXY / UNDERLAY / IMAGE stubs",
+  "units": {
+    "expected_unit": "mm",
+    "insunits": 4
+  }
+}

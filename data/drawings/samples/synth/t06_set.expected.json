@@ -1,0 +1,27 @@
+{
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "files": [
+    "t06_mm_file.dxf",
+    "t06_m_file.dxf"
+  ],
+  "schema": "synth-expected/0-provisional",
+  "set": "t06_set",
+  "set_quantities": {
+    "SYN-LIGHT-A": 5,
+    "SYN-OUTLET-2P": 4,
+    "SYN-PANEL-DB": 5,
+    "SYN-SWITCH-1G": 8
+  },
+  "set_warnings": [
+    {
+      "code": "SET_UNIT_DIFF",
+      "files": {
+        "t06_m_file.dxf": 6,
+        "t06_mm_file.dxf": 4
+      }
+    }
+  ],
+  "t_ids": [
+    "T-06"
+  ]
+}

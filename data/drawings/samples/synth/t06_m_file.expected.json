@@ -1,0 +1,311 @@
+{
+  "case": "t06_m_file",
+  "container_instances": [],
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "dxf_version": "R2018",
+  "extra": {
+    "coordinate_scale_to_model_unit": 0.001,
+    "generation_counts": {
+      "LIGHT_A": 2,
+      "OUTLET_2P": 2,
+      "PANEL_DB": 2,
+      "SWITCH_1G": 4
+    }
+  },
+  "file": "t06_m_file.dxf",
+  "instances": [
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "4F",
+      "insert": [
+        24.0,
+        10.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "4F",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_A",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "51",
+      "insert": [
+        19.5,
+        16.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "51",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": null,
+      "handle": "53",
+      "insert": [
+        16.5,
+        7.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "53",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": null,
+      "handle": "55",
+      "insert": [
+        6.0,
+        2.5,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "55",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "SWITCH_1G",
+      "effective_layer": "E-SWITCH",
+      "grid": null,
+      "handle": "57",
+      "insert": [
+        7.5,
+        11.5,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "57",
+      "layer": "E-SWITCH",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "SWITCH_1G",
+      "effective_layer": "E-SWITCH",
+      "grid": null,
+      "handle": "59",
+      "insert": [
+        25.5,
+        19.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "59",
+      "layer": "E-SWITCH",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "SWITCH_1G",
+      "effective_layer": "E-SWITCH",
+      "grid": null,
+      "handle": "5B",
+      "insert": [
+        7.5,
+        19.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "5B",
+      "layer": "E-SWITCH",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "SWITCH_1G",
+      "effective_layer": "E-SWITCH",
+      "grid": null,
+      "handle": "5D",
+      "insert": [
+        18.0,
+        5.5,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "5D",
+      "layer": "E-SWITCH",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "PANEL_DB",
+      "effective_layer": "E-PANEL",
+      "grid": null,
+      "handle": "5F",
+      "insert": [
+        16.5,
+        17.5,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "5F",
+      "layer": "E-PANEL",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "PANEL_DB",
+      "effective_layer": "E-PANEL",
+      "grid": null,
+      "handle": "61",
+      "insert": [
+        19.5,
+        19.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "61",
+      "layer": "E-PANEL",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    }
+  ],
+  "non_insert_entities": [],
+  "notes": [],
+  "rules_active": [
+    "R01",
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "scenarios": {
+    "default": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 0,
+        "mapped": 10,
+        "total": 10,
+        "unclassified": 0,
+        "unmapped": 0
+      },
+      "config": {},
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {},
+      "file_status": "OK",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {
+        "SYN-LIGHT-A": 2,
+        "SYN-OUTLET-2P": 2,
+        "SYN-PANEL-DB": 2,
+        "SYN-SWITCH-1G": 4
+      },
+      "unclassified_by_spec": [],
+      "unmapped": [],
+      "warnings": [
+        {
+          "block_units": 4,
+          "blocks": [
+            "LIGHT_A",
+            "OUTLET_2P",
+            "PANEL_DB",
+            "SWITCH_1G"
+          ],
+          "code": "BLOCK_UNIT_DIFF",
+          "file_units": 6,
+          "note": "block record units (mm) differ from $INSUNITS (m); counts unaffected"
+        }
+      ]
+    }
+  },
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109,
+  "t_ids": [
+    "T-06"
+  ],
+  "title": "",
+  "units": {
+    "expected_unit": "m",
+    "insunits": 6
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "case": "t04_dynamic",
+  "container_instances": [],
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "dxf_version": "R2018",
+  "extra": {
+    "generation": {
+      "direct_reference": 1,
+      "original_name": "LIGHT_DYN",
+      "resolvable_star_u": {
+        "*U1": 2,
+        "*U2": 3
+      },
+      "unresolvable_star_u": {
+        "*U3": 2
+      }
+    }
+  },
+  "file": "t04_dynamic.dxf",
+  "instances": [
+    {
+      "attribs": {},
+      "block": "*U1",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "49",
+      "insert": [
+        4500.0,
+        1000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "49",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "dynamic": "resolved",
+        "original_name": "LIGHT_DYN",
+        "synthetic_marker": "AcDbBlockRepBTag"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "*U1",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "4B",
+      "insert": [
+        0.0,
+        10000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "4B",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "dynamic": "resolved",
+        "original_name": "LIGHT_DYN",
+        "synthetic_marker": "AcDbBlockRepBTag"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "*U2",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "4D",
+      "insert": [
+        9000.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "4D",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "dynamic": "resolved",
+        "original_name": "LIGHT_DYN",
+        "synthetic_marker": "AcDbBlockRepBTag"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "*U2",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "4F",
+      "insert": [
+        6000.0,
+        2500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "4F",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "dynamic": "resolved",
+        "original_name": "LIGHT_DYN",
+        "synthetic_marker": "AcDbBlockRepBTag"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "*U2",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "51",
+      "insert": [
+        6000.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "51",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "dynamic": "resolved",
+        "original_name": "LIGHT_DYN",
+        "synthetic_marker": "AcDbBlockRepBTag"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "LIGHT_DYN",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "53",
+      "insert": [
+        9000.0,
+        2500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "53",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "dynamic": "direct_definition_reference",
+        "original_name": "LIGHT_DYN"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "*U3",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "55",
+      "insert": [
+        24000.0,
+        1000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "55",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "dynamic": "unresolved"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "*U3",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "57",
+      "insert": [
+        27000.0,
+        1000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "57",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "dynamic": "unresolved"
+      }
+    }
+  ],
+  "non_insert_entities": [],
+  "notes": [
+    "T-04a PARTIAL: resolvability markers are SYNTHETIC (ezdxf-documented AcDbBlockRepBTag/AcDbDynamicBlockGUID). Shape in real AutoCAD output is unverified."
+  ],
+  "rules_active": [
+    "R07"
+  ],
+  "scenarios": {
+    "default": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 0,
+        "mapped": 6,
+        "total": 8,
+        "unclassified": 0,
+        "unmapped": 2
+      },
+      "config": {},
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {},
+      "file_status": "OK",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {
+        "SYN-LIGHT-DYN": 6
+      },
+      "unclassified_by_spec": [],
+      "unmapped": [
+        "55",
+        "57"
+      ],
+      "warnings": [
+        {
+          "block": "*U3",
+          "code": "DYNAMIC_UNRESOLVED",
+          "handle": "55",
+          "insert_path": []
+        },
+        {
+          "block": "*U3",
+          "code": "DYNAMIC_UNRESOLVED",
+          "handle": "57",
+          "insert_path": []
+        }
+      ]
+    }
+  },
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109,
+  "t_ids": [
+    "T-04"
+  ],
+  "title": "dynamic blocks: resolvable and unresolvable *U",
+  "units": {
+    "expected_unit": "mm",
+    "insunits": 4
+  }
+}

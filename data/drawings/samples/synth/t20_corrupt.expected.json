@@ -1,0 +1,14 @@
+{
+  "case": "t20_corrupt",
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "expected": {
+    "quantity_rows": 0,
+    "read_status": "READ_FAILED",
+    "set_total_rows": 0
+  },
+  "file": "t20_corrupt.dxf",
+  "schema": "synth-expected/0-provisional",
+  "t_ids": [
+    "T-20"
+  ]
+}

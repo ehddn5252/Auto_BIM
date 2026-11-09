@@ -1,0 +1,253 @@
+{
+  "case": "t05_attrib",
+  "container_instances": [],
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "dxf_version": "R2018",
+  "extra": {
+    "generation": {
+      "WATT_counts": {
+        "20": 4,
+        "40": 2,
+        "60": 2
+      }
+    }
+  },
+  "file": "t05_attrib.dxf",
+  "instances": [
+    {
+      "attribs": {},
+      "block": "*U1",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "42",
+      "insert": [
+        1500.0,
+        1000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "42",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "*U2",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "4A",
+      "insert": [
+        12000.0,
+        2500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "4A",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "*U3",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "52",
+      "insert": [
+        12000.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "52",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "*U4",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "5A",
+      "insert": [
+        1500.0,
+        7000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "5A",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "*U5",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "62",
+      "insert": [
+        22500.0,
+        16000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "62",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "*U6",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "6A",
+      "insert": [
+        27000.0,
+        17500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "6A",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "*U7",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "72",
+      "insert": [
+        21000.0,
+        14500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "72",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    },
+    {
+      "attribs": {},
+      "block": "*U8",
+      "effective_layer": "E-LIGHT",
+      "grid": null,
+      "handle": "7A",
+      "insert": [
+        0.0,
+        16000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "7A",
+      "layer": "E-LIGHT",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {}
+    }
+  ],
+  "non_insert_entities": [],
+  "notes": [
+    "WATT=60 has no rule -> UNMAPPED"
+  ],
+  "rules_active": [
+    "R08",
+    "R09"
+  ],
+  "scenarios": {
+    "default": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 0,
+        "mapped": 6,
+        "total": 8,
+        "unclassified": 0,
+        "unmapped": 2
+      },
+      "config": {},
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {},
+      "file_status": "OK",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {
+        "SYN-LIGHT-20W": 4,
+        "SYN-LIGHT-40W": 2
+      },
+      "unclassified_by_spec": [],
+      "unmapped": [
+        "72",
+        "7A"
+      ],
+      "warnings": []
+    }
+  },
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109,
+  "t_ids": [
+    "T-05"
+  ],
+  "title": "same block, ATTRIB WATT selects item",
+  "units": {
+    "expected_unit": "mm",
+    "insunits": 4
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "case": "t14b_minsert_zero_spacing",
+  "container_instances": [],
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "dxf_version": "R2018",
+  "extra": {
+    "ambiguity": {
+      "declared_rows_x_cols": 12,
+      "ezdxf_mcount": 4,
+      "insert_handle": "3D",
+      "status": "NO TRUTH ASSIGNED - needs real AutoCAD behaviour; if 12 stacked copies exist they are also DUPLICATE candidates (F-006 rank 7)"
+    }
+  },
+  "file": "t14b_minsert_zero_spacing.dxf",
+  "instances": [],
+  "non_insert_entities": [],
+  "notes": [
+    "deliberately has no scenario fates: ezdxf mcount treats spacing 0 as 1 in that direction"
+  ],
+  "rules_active": [
+    "R02"
+  ],
+  "scenarios": {
+    "default": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 0,
+        "mapped": 0,
+        "total": 0,
+        "unclassified": 0,
+        "unmapped": 0
+      },
+      "config": {},
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {},
+      "file_status": "OK",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {},
+      "unclassified_by_spec": [],
+      "unmapped": [],
+      "warnings": []
+    }
+  },
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109,
+  "t_ids": [
+    "T-14"
+  ],
+  "title": "MINSERT rows=3 cols=4 with row_spacing=0 (truth NOT settled)",
+  "units": {
+    "expected_unit": "mm",
+    "insunits": 4
+  }
+}

@@ -1,0 +1,675 @@
+{
+  "case": "t14_minsert",
+  "container_instances": [],
+  "disclaimer": "자기 일관성 검증 — 실제 정확도 아님 (D-004). 형식은 Gate 2 ADR 전까지 잠정.",
+  "dxf_version": "R2018",
+  "extra": {
+    "generation": {
+      "2x5_rot90": 10,
+      "3x4": 12
+    }
+  },
+  "file": "t14_minsert.dxf",
+  "instances": [
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        0,
+        0
+      ],
+      "handle": "3D",
+      "insert": [
+        28500.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D#0,0",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "3x4"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        0,
+        1
+      ],
+      "handle": "3D",
+      "insert": [
+        28500.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D#0,1",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "3x4"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        0,
+        2
+      ],
+      "handle": "3D",
+      "insert": [
+        28500.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D#0,2",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "3x4"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        0,
+        3
+      ],
+      "handle": "3D",
+      "insert": [
+        28500.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D#0,3",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "3x4"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        1,
+        0
+      ],
+      "handle": "3D",
+      "insert": [
+        28500.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D#1,0",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "3x4"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        1,
+        1
+      ],
+      "handle": "3D",
+      "insert": [
+        28500.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D#1,1",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "3x4"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        1,
+        2
+      ],
+      "handle": "3D",
+      "insert": [
+        28500.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D#1,2",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "3x4"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        1,
+        3
+      ],
+      "handle": "3D",
+      "insert": [
+        28500.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D#1,3",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "3x4"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        2,
+        0
+      ],
+      "handle": "3D",
+      "insert": [
+        28500.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D#2,0",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "3x4"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        2,
+        1
+      ],
+      "handle": "3D",
+      "insert": [
+        28500.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D#2,1",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "3x4"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        2,
+        2
+      ],
+      "handle": "3D",
+      "insert": [
+        28500.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D#2,2",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "3x4"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        2,
+        3
+      ],
+      "handle": "3D",
+      "insert": [
+        28500.0,
+        20500.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3D#2,3",
+      "layer": "E-POWER",
+      "rotation": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "3x4"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        0,
+        0
+      ],
+      "handle": "3F",
+      "insert": [
+        10500.0,
+        7000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3F#0,0",
+      "layer": "E-POWER",
+      "rotation": 90.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "2x5_rot90"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        0,
+        1
+      ],
+      "handle": "3F",
+      "insert": [
+        10500.0,
+        7000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3F#0,1",
+      "layer": "E-POWER",
+      "rotation": 90.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "2x5_rot90"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        0,
+        2
+      ],
+      "handle": "3F",
+      "insert": [
+        10500.0,
+        7000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3F#0,2",
+      "layer": "E-POWER",
+      "rotation": 90.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "2x5_rot90"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        0,
+        3
+      ],
+      "handle": "3F",
+      "insert": [
+        10500.0,
+        7000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3F#0,3",
+      "layer": "E-POWER",
+      "rotation": 90.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "2x5_rot90"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        0,
+        4
+      ],
+      "handle": "3F",
+      "insert": [
+        10500.0,
+        7000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3F#0,4",
+      "layer": "E-POWER",
+      "rotation": 90.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "2x5_rot90"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        1,
+        0
+      ],
+      "handle": "3F",
+      "insert": [
+        10500.0,
+        7000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3F#1,0",
+      "layer": "E-POWER",
+      "rotation": 90.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "2x5_rot90"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        1,
+        1
+      ],
+      "handle": "3F",
+      "insert": [
+        10500.0,
+        7000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3F#1,1",
+      "layer": "E-POWER",
+      "rotation": 90.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "2x5_rot90"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        1,
+        2
+      ],
+      "handle": "3F",
+      "insert": [
+        10500.0,
+        7000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3F#1,2",
+      "layer": "E-POWER",
+      "rotation": 90.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "2x5_rot90"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        1,
+        3
+      ],
+      "handle": "3F",
+      "insert": [
+        10500.0,
+        7000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3F#1,3",
+      "layer": "E-POWER",
+      "rotation": 90.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "2x5_rot90"
+      }
+    },
+    {
+      "attribs": {},
+      "block": "OUTLET_2P",
+      "effective_layer": "E-POWER",
+      "grid": [
+        1,
+        4
+      ],
+      "handle": "3F",
+      "insert": [
+        10500.0,
+        7000.0,
+        0.0
+      ],
+      "insert_path": [],
+      "key": "3F#1,4",
+      "layer": "E-POWER",
+      "rotation": 90.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "space": "Model",
+      "tags": {
+        "minsert": "2x5_rot90"
+      }
+    }
+  ],
+  "non_insert_entities": [],
+  "notes": [],
+  "rules_active": [
+    "R02"
+  ],
+  "scenarios": {
+    "default": {
+      "attribution": {
+        "conflict": 0,
+        "equation_holds": true,
+        "excluded": 0,
+        "mapped": 22,
+        "total": 22,
+        "unclassified": 0,
+        "unmapped": 0
+      },
+      "config": {},
+      "conflict": [],
+      "emit_quantities": true,
+      "excluded": {},
+      "file_status": "OK",
+      "hidden_layer_excluded": {
+        "LAYER_FROZEN": 0,
+        "LAYER_OFF": 0,
+        "total": 0
+      },
+      "quantities": {
+        "SYN-OUTLET-2P": 22
+      },
+      "unclassified_by_spec": [],
+      "unmapped": [],
+      "warnings": []
+    }
+  },
+  "schema": "synth-expected/0-provisional",
+  "seed": 20261109,
+  "t_ids": [
+    "T-14"
+  ],
+  "title": "MINSERT arrays",
+  "units": {
+    "expected_unit": "mm",
+    "insunits": 4
+  }
+}
