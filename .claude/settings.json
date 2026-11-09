@@ -1,0 +1,74 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Read",
+      "Grep",
+      "Glob",
+      "WebSearch",
+      "WebFetch",
+      "Edit(/**)",
+      "Write(/**)",
+      "Bash(mkdir *)",
+      "PowerShell(New-Item *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(grep *)",
+      "Bash(rg *)",
+      "Bash(find *)",
+      "Bash(wc *)",
+      "Bash(diff *)",
+      "Bash(file *)",
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git show*)",
+      "Bash(git branch*)",
+      "Bash(python *)",
+      "Bash(py *)",
+      "Bash(pytest*)",
+      "Bash(pip list*)",
+      "Bash(pip show*)",
+      "Bash(node *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-Content *)",
+      "PowerShell(Select-String *)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(Get-Item *)",
+      "PowerShell(python *)",
+      "PowerShell(py *)",
+      "PowerShell(pytest*)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean -f*)",
+      "Bash(git branch -D*)",
+      "PowerShell(Remove-Item -Recurse *)",
+      "PowerShell(git push --force*)",
+      "PowerShell(git reset --hard*)"
+    ],
+    "additionalDirectories": [
+      "C:\\git_repository\\5minuate_study",
+      "C:\\git_repository\\node_trade"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/backup-session.cjs",
+            "timeout": 30,
+            "statusMessage": "세션 백업 저장 중..."
+          }
+        ]
+      }
+    ]
+  }
+}

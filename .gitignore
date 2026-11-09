@@ -1,0 +1,38 @@
+# 비밀값
+.env
+.env.*
+!.env.example
+
+# 세션 원본 백업 (생각 과정 포함 — 로컬 전용)
+prompt_backup/auto/raw/
+
+# 고객/실제 도면과 그 산출물 — 외부 반출 금지 (LLM_wiki/operating-rules.md 규칙 5)
+data/drawings/private/
+output/private/
+
+# Claude 로컬 설정
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# CAD 임시/백업 파일
+*.bak
+*.dwl
+*.dwl2
+*.sv$
+
+# OS / 에디터
+Thumbs.db
+.DS_Store
+.vscode/*
+!.vscode/settings.json
